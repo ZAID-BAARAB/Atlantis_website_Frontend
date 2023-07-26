@@ -72,14 +72,15 @@ body {
     background-image: url("images/bg.png");
     background-size: cover;
     background-repeat: repeat;
-    height: 500px;
+    height: 450px;
 }
 
 .textcostum {
     color: #ffffff;
 }
 
-.presentation {
+.presentation,
+.actual-title {
     color: #f3e2ba;
     font-family: Charlemagne Std;
 }
@@ -89,5 +90,19 @@ body {
 }
 
 .actualites {
-    background-image: url("images/BackgroundImage.png");
+    background-image: url("images/bg2.png");
+    background-size: cover;
+    box-shadow: inset 0 0 30px rgba(14, 14, 14, 0.5);
+    height: 450px;
+}
+
+.actualites::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
