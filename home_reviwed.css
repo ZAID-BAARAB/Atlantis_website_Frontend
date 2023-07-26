@@ -1,0 +1,81 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav {
+    border-bottom: 2px solid #f3e2ba;
+}
+
+.nav-link {
+    font-family: regular;
+    color: #f3e2ba !important;
+}
+
+.display-4 {
+    color: #f3e2ba !important;
+    font-family: Archeologicaps;
+}
+
+.top {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/BackgroundImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.imagebox img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.title1 {
+    color: #f3e2ba !important;
+    font-family: Archeologicaps;
+}
+
+.imagebox {
+    margin-top: 90px;
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: #f3e2ba;
+    font-size: 13px;
+    font-family: Gotham;
+    font-weight: 350;
+    background-color: #07151e;
+    /* Use a darker background color here */
+}
+
+.overlay-txt {
+    color: #f3e2ba !important;
+    font-size: 13px !important;
+    font-family: Gotham;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 350 !important;
+}
+
+.btn-acheter {
+    font-family: Gotham;
+    color: #f3e2ba !important;
+    border-width: 4px;
+    border-color: #f3e2ba !important;
+}
+
+.btn-acheter:hover {
+    background-color: #ff0000 !important;
+    /* Set the hover background color to red (change to your desired color) */
+    color: #ffffff;
+    /* Set the hover text color to white (change to your desired color) */
+}
