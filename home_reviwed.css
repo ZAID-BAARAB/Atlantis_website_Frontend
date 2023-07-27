@@ -1,10 +1,11 @@
 body {
-    margin: 0 !important;
+    margin: 0 0 !important;
     padding: 0 !important;
 }
 
-.nav {
+.header {
     border-bottom: 2px solid #f3e2ba;
+    height: 50px;
 }
 
 .nav-link {
@@ -80,7 +81,8 @@ body {
 }
 
 .presentation,
-.actual-title {
+.actual-title,
+.footer-text {
     color: #f3e2ba;
     font-family: Charlemagne Std;
 }
@@ -105,4 +107,46 @@ body {
     height: 100%;
     box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.5);
     z-index: -1;
+}
+
+.btm-footer {
+    background-color: #09141c;
+    padding: 30px;
+}
+
+.text-partnaires {
+    color: #ffffff;
+    font-family: Myriad Pro;
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.language {
+    font-family: Raleway;
+    color: #f3e2ba;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: auto!important;
+}
+
+.inscrire {
+    background-color: #172128;
+    height: 40px;
+}
+
+.inscrire h4 {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-input {
+    height: 40px;
+    background-color: #2d2d2d;
 }
