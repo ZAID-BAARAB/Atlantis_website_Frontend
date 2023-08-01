@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.woff2') format('woff2'),
+        url('Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Charlemagne Std';
+    src: url('CharlemagneStd-Bold.woff2') format('woff2'),
+        url('CharlemagneStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archeologicaps';
+    src: url('Archeologicaps.woff2') format('woff2'),
+        url('Archeologicaps.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Light.woff2') format('woff2'),
+        url('Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Medium.woff2') format('woff2'),
+        url('Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Bold.woff2') format('woff2'),
+        url('Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Light.woff2') format('woff2'),
+        url('Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Regular.woff2') format('woff2'),
+        url('Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,6 +1,10 @@
+:root{
+    --mainColor: #f3e2ba;
+}
 body {
     margin: 0 0 !important;
     padding: 0 !important;
+    box-sizing: border-box;
 }
 
 .header {
@@ -11,6 +15,9 @@ body {
 .nav-link {
     font-family: regular;
     color: #f3e2ba !important;
+}
+.navbar {
+    border-bottom: 2px solid var(--mainColor);
 }
 
 .display-4 {
@@ -25,6 +32,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
+}
+.navbar-toggler-icon {
+   
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(243, 226, 186, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")  !important ;    
+        width: 1.5rem;
+        height: 1.5rem;
 }
 
 .imagebox img {
@@ -149,4 +162,8 @@ a {
 .form-input {
     height: 40px;
     background-color: #2d2d2d;
+}
+
+.owl-carousel{ 
+    z-index: 1000;
 }
