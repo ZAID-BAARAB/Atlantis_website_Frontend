@@ -127,3 +127,14 @@ background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/sv
 .navbar {
     border-bottom: 2px solid var(--mainColor);
 }
+
+.btn-inscrire{
+    font-family: Gotham;
+    color: #f3e2ba !important;
+    border-width: 4px;
+    border-color: #f3e2ba !important;
+}
+
+.btn-inscrire, input{
+  height: 40px !important;
+}

@@ -31,7 +31,7 @@ body {
     background-image: url("images/BackgroundImage.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    
 }
 .navbar-toggler-icon {
    
@@ -75,9 +75,18 @@ body {
 .btn-acheter:hover,
 .btn-dossier:hover {
     background-color: #142835 !important;
-    /* Set the hover background color to red (change to your desired color) */
     color: #ffffff;
-    /* Set the hover text color to white (change to your desired color) */
+}
+
+.btn-inscrire{
+    font-family: Gotham;
+    color: #f3e2ba !important;
+    border-width: 4px;
+    border-color: #f3e2ba !important;
+}
+
+.btn-inscrire, input{
+  height: 40px !important;
 }
 
 .foot {
@@ -86,7 +95,7 @@ body {
     background-image: url("images/bg.png");
     background-size: cover;
     background-repeat: repeat;
-    height: 450px;
+    
 }
 
 .textcostum {
@@ -166,4 +175,8 @@ a {
 
 .owl-carousel{ 
     z-index: 1000;
+}
+
+#email-input:hover{
+    color:#ffffff;
 }
